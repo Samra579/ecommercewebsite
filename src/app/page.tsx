@@ -1,4 +1,4 @@
-//import Image from "next/image";
+import Image from "next/image";
 
 //import Footer from "./components/footer";
 //import Navbar1 from "./components/Navbar1";
@@ -8,7 +8,12 @@
 export default function Home() {
   return (
     <div className="h-96">
-      
-    </div>
+    <Image
+      src="/sofa.png" // Ensure the image file exists in the `public` folder
+      alt="Chair Image"
+      width={300}
+      height={300}
+    />
+  </div>
   );
 }

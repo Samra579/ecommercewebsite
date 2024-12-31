@@ -31,7 +31,7 @@ const Navbar3 = () => {
       </div>
     </div>
     <div className="banner-image">
-      <img src="/sofa.png" alt="Chair Image" />
+      
       <div className="discount-badge">50% off</div>
     </div>
   </div>
