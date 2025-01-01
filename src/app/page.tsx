@@ -7,13 +7,14 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="h-96">
-    <Image
-      src="/sofa.png" // Ensure the image file exists in the `public` folder
-      alt="Chair Image"
-      width={300}
-      height={300}
-    />
+   <div className="h-10 flex justify-end items-center">
+  <Image
+    src="/sofa.png" 
+    alt="Chair Image"
+    width={300}
+    height={300}
+  />
+
   </div>
   );
 }
